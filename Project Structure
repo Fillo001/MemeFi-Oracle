@@ -1,0 +1,38 @@
+MemeFi-Oracle/
+│
+├── 1-docs/
+│   ├── README.md
+│   ├── VISION.md
+│   └── TEAM.md
+│
+├── 2-contracts/
+│   ├── KaleToken.sol
+│   └── MemeStaking.sol
+│
+├── 3-oracle/
+│   ├── fetchOracle.js
+│   └── oracleUtils.js
+│
+├── 4-frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── PriceFeed.js
+│   │   │   ├── StakeForm.js
+│   │   │   └── Leaderboard.js
+│   │   ├── styles/
+│   │   │   └── app.css
+│   │   └── utils/
+│   │       └── reflectorAPI.js
+│   └── package.json
+│
+├── 5-scripts/
+│   ├── deploy.js
+│   └── interact.js
+│
+└── 6-test/
+    ├── test_token.js
+    └── test_staking.js
